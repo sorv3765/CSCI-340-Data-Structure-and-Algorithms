@@ -1,0 +1,45 @@
+#include<iostream>
+#include<vector>
+#include<set>
+using std::cout;
+using std::vector;
+using std::set;
+using std::endl;
+/*******	******************************************************************************************************************
+Purpose: This program initializes a vector of integers, add 10 natural numbers which are multiples of 10 eg: 10,20,....100.
+         Print the vector. Now add 5 to each element of the vector. Copy these numbers to a new set and display the output 
+		 of vector in reverse order using reverse iterator and set in normal order with iterator.
+Task   : Complete the code.
+Output : 10 20 30 40 50 60 70 80 90 100
+		105 95 85 75 65 55 45 35 25 15
+		15 25 35 45 55 65 75 85 95 105
+***************************************************************************************************************************/
+
+int main()
+{
+	vector<int> myvector;
+	// add 10 natural numbers which are multiples of 10 eg: 10,20,....100
+
+	
+	// display the vector
+	vector<int>::iterator i;
+	for (i = myvector.begin(); i != myvector.end(); i++)
+		cout << *i << " ";
+	cout << endl;
+	
+	//Add number 5 to all the elements
+	for (i = myvector.begin(); i != myvector.end(); i++)
+		//add numer 5
+	
+	// copy the vector to a set
+	
+
+	//Display vector in reverse order using reverse_iterator
+	
+	
+	//Display set in normal order
+	set<int>::iterator s;
+	
+	
+	return 0;
+}
